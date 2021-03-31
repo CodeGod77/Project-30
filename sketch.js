@@ -118,6 +118,6 @@ function draw(){
   }
   function keyPressed(){
     if(keyCode === 32){
-      slingShot.attach(ball.body);
+      slingShot.attach(this.ball);
     }
 }
